@@ -1,2 +1,7 @@
 *.o
 *.h~
+*.stash
+
+*.a
+Makefile
+exerciceP14_gl
