@@ -13,7 +13,6 @@ int main(int argc, char* argv[])
   
 	vector<Tissu*> init;
  
-	/*
 	// TEST CHAINE
 	
 	vector<Vecteur3D> chaine = {Vecteur3D(1.5, 0.0, 0.0),		//Dans ce vecteur on déclare les positions des composantes
@@ -27,9 +26,8 @@ int main(int argc, char* argv[])
 						chaine);				
 	
 	Tissu* ptr_tissu1(&tissu1);
-	//init.push_back(ptr_tissu1);					//ATTENTION! ce tissu fera partie d'un tissu composé,
+	init.push_back(ptr_tissu1);					//ATTENTION! ce tissu fera partie d'un tissu composé,
 													//décommenter si vous décidez de faire autrement
-	*/
 	
 	
 	/*
